@@ -1,0 +1,6436 @@
+{
+  "VaporProductFlowRate": null,
+  "DistillateFlowRate": null,
+  "BottomsFlowRate": null,
+  "RefluxRatio": null,
+  "LiqCompositions": [
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    }
+  ],
+  "VapCompositions": [
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_5388_NBP_53": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_98": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_142": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_186": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_230": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_275": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_320": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_365": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_410": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_454": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_498": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_542": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_587": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_632": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "C_5388_NBP_676": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      },
+      "Water": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0,
+        "ParamType": 0
+      }
+    }
+  ],
+  "StageTemps": [
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 318.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 330.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 333.57142857142856,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 337.14285714285717,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 340.71428571428572,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 344.28571428571428,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 347.85714285714283,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 351.42857142857144,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 355.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 358.57142857142856,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 362.14285714285717,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 365.71428571428572,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 369.28571428571428,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 372.85714285714289,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 376.42857142857144,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 380.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 383.57142857142856,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 387.14285714285717,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 390.71428571428572,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 394.28571428571428,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 397.85714285714289,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 401.42857142857144,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 405.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 408.57142857142856,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 412.14285714285717,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 415.71428571428572,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 419.28571428571428,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 422.85714285714289,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 426.42857142857144,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    }
+  ],
+  "LiqMolarFlows": [
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    }
+  ],
+  "VapMolarFlows": [
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 0.0,
+      "ParamType": 0
+    }
+  ]
+}
