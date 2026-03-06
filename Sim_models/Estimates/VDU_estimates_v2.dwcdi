@@ -1,0 +1,3336 @@
+{
+  "VaporProductFlowRate": null,
+  "DistillateFlowRate": null,
+  "BottomsFlowRate": null,
+  "RefluxRatio": null,
+  "LiqCompositions": [
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.92234E-41,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.85514E-30,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.31168E-19,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.94315E-09,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.281044,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.549614,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.164596,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00439225,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000328733,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.55711E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.29124E-52,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 5.71532E-62,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.4627E-28,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.75835E-21,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.49489E-13,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.19165E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.922291,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0678564,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0095497,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00026912,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.63415E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.7645E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.75243E-35,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.92543E-42,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.4627E-28,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.75835E-21,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.49489E-13,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.19165E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.922291,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0678564,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0095497,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00026912,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.63415E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.7645E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.75243E-35,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.92543E-42,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.4627E-28,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.75835E-21,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.49489E-13,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.19165E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.922291,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0678564,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0095497,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00026912,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.63415E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.7645E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.75243E-35,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.92543E-42,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.4627E-28,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.75835E-21,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.49489E-13,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.19165E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.922291,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0678564,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0095497,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00026912,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.63415E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.7645E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.75243E-35,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.92543E-42,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.4627E-28,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.75835E-21,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.49489E-13,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.19165E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.922291,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0678564,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0095497,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00026912,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.63415E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.7645E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.75243E-35,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.92543E-42,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.90494E-26,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 5.79701E-19,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.21945E-12,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.27665E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.929503,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0610178,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00917554,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000262439,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.59997E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.75798E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.3627E-32,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.15002E-38,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.65903E-23,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.28742E-17,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.0374E-11,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.84718E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.93561,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0555476,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00853103,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000246022,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.45995E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.63315E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.94639E-29,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.07907E-34,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 6.73011E-21,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.78365E-15,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.91938E-10,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000114397,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.938892,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0524598,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00826515,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000241412,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.43834E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.63283E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.42064E-26,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 5.00025E-31,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.61649E-18,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.30786E-14,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 5.84662E-09,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00033651,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.940999,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0503352,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00806432,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000237742,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.42092E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.63352E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.72509E-23,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.15677E-27,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.69738E-16,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.68405E-12,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 6.78949E-08,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000980057,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.942226,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0486454,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00788772,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000234448,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.40538E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.63475E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.82124E-20,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 8.69962E-24,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 8.06467E-14,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.27489E-10,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 7.70486E-07,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00282455,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.941909,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0472611,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00774614,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000232082,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.39837E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.64451E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.6995E-17,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.28898E-20,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.67461E-11,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.06418E-08,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 8.52559E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00803571,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.937941,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0461144,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00764261,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000230845,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.40283E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.66683E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.37547E-14,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.16406E-16,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.2807E-09,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.75476E-07,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.12782E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.022411,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.924801,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0449097,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00753053,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000229435,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.40662E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.68986E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.87543E-11,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.82098E-13,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 5.89801E-07,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.9782E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000924298,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0600624,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.88791,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0434158,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00741161,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000228525,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.42125E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.73052E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.22074E-08,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.12906E-09,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.03937E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000716771,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00834301,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.14697,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.795523,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0408763,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00720877,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000226755,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.44153E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.79261E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.43747E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.77228E-06,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00951468,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0184548,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0557988,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.279082,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.581843,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0370218,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00714576,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000236267,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.64157E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.12076E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00626556,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00460686,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0540532,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.082609,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.146395,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.327387,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.312598,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00888582,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000758358,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.25799E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 7.84631E-07,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 5.34395E-08,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0384413,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0288587,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0540532,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.082609,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.146395,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.327387,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.312598,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00888582,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000758358,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.25799E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 7.84631E-07,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 5.34395E-08,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0384413,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0288587,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0540532,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.082609,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.146395,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.327387,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.312598,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00888582,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000758358,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.25799E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 7.84631E-07,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 5.34395E-08,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0384413,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0288587,
+        "ParamType": 0
+      }
+    }
+  ],
+  "VapCompositions": [
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.8561E-46,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 7.73966E-34,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.51558E-22,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.06061E-10,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0402117,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.347023,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.538119,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0572048,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0141458,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00329531,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.40574E-57,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 8.78929E-68,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 6.22635E-31,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.3448E-23,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.22307E-14,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.69369E-07,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.740724,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.171509,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0798873,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00613586,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00141396,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000328866,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 6.13553E-39,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.20372E-46,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 6.87783E-31,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.00849E-22,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.2879E-14,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.95711E-07,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.745386,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.169717,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0774225,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00584314,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00132582,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000304141,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 6.91312E-39,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.65515E-46,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 7.51872E-31,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.07964E-22,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.34873E-14,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.01979E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.7495,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.168103,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0752696,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00559218,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00125144,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000283554,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 7.69332E-39,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.11409E-46,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 8.14539E-31,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.14778E-22,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.40572E-14,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.04182E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.753146,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.166645,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0733783,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0053754,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00118808,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00026623,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 8.46998E-39,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.57653E-46,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 8.7528999999999991E-31,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.21261E-22,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.45886E-14,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.06195E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.756382,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.16533,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0717141,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00518748,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00113384,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000251561,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.23532E-39,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 5.03742E-46,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.76295E-28,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 7.79228E-21,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.99393E-13,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.35349E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.776553,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.149265,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0679536,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00491419,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0010728,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000237733,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.39751E-35,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.12979E-42,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 7.76289E-26,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.58879E-19,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.57584E-12,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.03273E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.793578,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.137205,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0633786,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00459591,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00100776,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000224378,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.83671E-32,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.6638E-38,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.0593E-23,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.58425E-17,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.22506E-11,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.12392E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.803462,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.129839,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0610186,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00445039,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000979732,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00021884,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.25405E-29,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 8.19828E-35,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 5.20089E-21,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.40259E-15,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.94134E-10,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.34212E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.811008,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.124497,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0589365,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00430427,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000948673,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000212154,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.60581E-26,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.7784E-31,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.25453E-18,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 7.35639E-14,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.71192E-09,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000276668,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.817403,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.120091,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0569505,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00415742,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000916242,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000204926,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.84798E-23,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.63499E-27,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.90346E-16,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.74109E-12,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 5.522E-08,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000812022,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.822624,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.116341,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0551242,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00401676,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000884009,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000197497,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.95918E-20,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 6.68382E-24,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 6.47273E-14,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.84966E-10,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 6.35227E-07,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00236198,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.826069,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.113175,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0534704,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.003882,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000851651,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000189746,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.93768E-17,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.59582E-20,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.38106E-11,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 8.84313E-09,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 7.14232E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00678791,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.82619,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.11035,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0519122,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00375064,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000819393,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000181893,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.7664E-14,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.50587E-17,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.78827E-09,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.04505E-07,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 7.77346E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0191059,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.817231,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.108166,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0507964,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00365299,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000794399,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000175602,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.44181E-11,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.24314E-13,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 5.12281E-07,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.71045E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000795352,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0514302,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.785564,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.107007,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.050593,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00363164,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000787272,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000173466,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.93612E-08,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 9.86545E-10,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 8.2456E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000639088,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00726448,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.12497,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.695499,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.111964,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0546187,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0039185,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000843442,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000184282,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 1.33764E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.61522E-06,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00100717,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.005867,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0368375,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.265202,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.63803,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0436581,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00884153,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000301384,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.4478E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.15243E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000180992,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.57072E-05,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000854939,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00521371,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.034295,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.258464,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.645463,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0455753,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00957753,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000336752,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.95816E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.88436E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000147342,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 2.81549E-05,
+        "ParamType": 0
+      }
+    },
+    {
+      "C_1957_NBP_559": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00110542,
+        "ParamType": 0
+      },
+      "C_1957_NBP_502": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00626937,
+        "ParamType": 0
+      },
+      "C_1957_NBP_445": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0383312,
+        "ParamType": 0
+      },
+      "C_1957_NBP_388": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.268946,
+        "ParamType": 0
+      },
+      "C_1957_NBP_338": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.633728,
+        "ParamType": 0
+      },
+      "C_1957_NBP_282": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.0426017,
+        "ParamType": 0
+      },
+      "C_1957_NBP_225": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.00845426,
+        "ParamType": 0
+      },
+      "C_1957_NBP_170": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000283338,
+        "ParamType": 0
+      },
+      "C_1957_NBP_117": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.19396E-05,
+        "ParamType": 0
+      },
+      "C_1957_NBP_61": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 3.79611E-06,
+        "ParamType": 0
+      },
+      "C_1957_NBP_615": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 0.000203743,
+        "ParamType": 0
+      },
+      "C_1957_NBP_671": {
+        "MaxVal": 0.0,
+        "MinVal": 0.0,
+        "Value": 4.10486E-05,
+        "ParamType": 0
+      }
+    }
+  ],
+  "StageTemps": [
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 452.192,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 533.10899999999992,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 537.605,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 541.69,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 545.406,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 548.777,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 552.899,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 554.299,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 556.14699999999993,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 558.30099999999993,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 560.681,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 563.444,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 566.84899999999993,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 570.84099999999989,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 575.885,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 582.731,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 599.102,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 616.729,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 604.8309999999999,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 622.9369999999999,
+      "ParamType": 0
+    }
+  ],
+  "LiqMolarFlows": [
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 416.15833333333336,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 959.025,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 961.82777777777778,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 964.44444444444446,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 967.10277777777776,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 938.69444444444446,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 972.69166666666672,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 959.66666666666663,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 949.37777777777774,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 940.54722222222222,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 929.38333333333333,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 914.00833333333333,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 898.97222222222217,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 875.83333333333337,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 839.06944444444446,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 700.725,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 841.38055555555559,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 133.86222222222221,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 133.86222222222221,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 133.86222222222221,
+      "ParamType": 0
+    }
+  ],
+  "VapMolarFlows": [
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 50.0,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 549.38888888888891,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 1092.2555555555555,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 1095.0583333333334,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 1097.675,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 1100.3333333333333,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 1071.925,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 1105.9222222222222,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 1092.8972222222221,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 1082.6083333333333,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 1073.7805555555556,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 1062.6138888888888,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 1047.2388888888888,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 1032.2027777777778,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 1009.0638888888889,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 972.3,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 833.95555555555552,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 707.51944444444439,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 1E-10,
+      "ParamType": 0
+    },
+    {
+      "MaxVal": 0.0,
+      "MinVal": 0.0,
+      "Value": 1E-10,
+      "ParamType": 0
+    }
+  ]
+}
