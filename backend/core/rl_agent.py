@@ -33,6 +33,7 @@ from backend.models.schemas import (
     TrainingResult,
 )
 from backend.config import settings
+from backend.services.firebase_service import FirebaseService
 
 
 # ── Algorithm registry ──────────────────────────────────────────────────────
@@ -173,7 +174,7 @@ class ProgressCallback(BaseCallback):
             ),
             "avg_reward": avg_rew,
             "best_reward": self.best_reward,
-            "profit": avg_rew * 1000,
+            "profit": avg_rew * 100,
             "timestamp": datetime.utcnow().isoformat(),
         }
 
@@ -287,6 +288,9 @@ class RLAgentManager:
     """
     Manages training, inference, and checkpointing of an RL agent
     for the CDU environment.
+
+    All training runs, metrics, and model checkpoints are persisted to
+    Firebase Firestore + Storage (with local-file fallback).
     """
 
     def __init__(self):
@@ -300,6 +304,9 @@ class RLAgentManager:
         self._latest_progress: Optional[dict] = None
         self._latest_run_id: Optional[str] = None
         self._latest_metrics_history: list[dict] = []
+
+        # Firebase service for persistence
+        self.firebase = FirebaseService()
 
         # Ensure checkpoint dir exists
         os.makedirs(settings.RL_CHECKPOINT_DIR, exist_ok=True)
@@ -451,7 +458,7 @@ class RLAgentManager:
                     else 0.0
                 ),
                 "best_reward": float(cb.best_reward),
-                "profit": float(cb.best_reward) * 1000,
+                "profit": float(cb.best_reward) * 100,
                 "training_time_seconds": round(elapsed, 2),
                 "checkpoint_path": model_path,
                 "checkpoint_size_mb": round(
@@ -464,7 +471,7 @@ class RLAgentManager:
             # Sanitize all values to native Python types for JSON
             final_metrics = ProgressCallback._to_python(final_metrics)
 
-            # Save metrics alongside the checkpoint
+            # Save metrics alongside the checkpoint (local)
             metrics_path = model_path + "_metrics.json"
             sanitized_history = ProgressCallback._to_python(
                 self._latest_metrics_history
@@ -481,6 +488,50 @@ class RLAgentManager:
                     indent=2,
                 )
             logger.info(f"Metrics saved → {metrics_path}")
+
+            # ── Persist to Firebase ──────────────────────────────────────
+            import asyncio
+            try:
+                loop = asyncio.new_event_loop()
+                # 1. Save training run record
+                loop.run_until_complete(
+                    self.firebase.save_training_run({
+                        "run_id": run_id,
+                        "algorithm": config.algorithm,
+                        "total_timesteps": config.total_timesteps,
+                        "best_reward": final_metrics.get("best_reward", 0),
+                        "avg_reward": final_metrics.get("avg_reward", 0),
+                        "episodes": cb.episode_count,
+                        "training_time_seconds": round(elapsed, 2),
+                        "config": config.model_dump(),
+                    })
+                )
+                # 2. Save training metrics history
+                loop.run_until_complete(
+                    self.firebase.save_training_metrics(
+                        run_id, final_metrics, sanitized_history
+                    )
+                )
+                # 3. Save checkpoint (binary + metadata)
+                loop.run_until_complete(
+                    self.firebase.save_checkpoint(
+                        run_id=run_id,
+                        local_zip_path=model_path + ".zip",
+                        metadata={
+                            "algorithm": config.algorithm,
+                            "best_reward": final_metrics.get("best_reward", 0),
+                            "avg_reward": final_metrics.get("avg_reward", 0),
+                            "episodes": cb.episode_count,
+                            "training_time_seconds": round(elapsed, 2),
+                            "checkpoint_size_mb": final_metrics.get("checkpoint_size_mb", 0),
+                            "config": config.model_dump(),
+                        },
+                    )
+                )
+                loop.close()
+                logger.info(f"Training run + metrics + checkpoint persisted to Firebase: {run_id}")
+            except Exception as fb_exc:
+                logger.warning(f"Firebase persistence failed (local files kept): {fb_exc}")
 
             # Broadcast final state
             if broadcast_fn:
@@ -510,24 +561,39 @@ class RLAgentManager:
         return action
 
     def load_checkpoint(self, path: str) -> None:
-        """Load a previously saved model."""
-        if not os.path.exists(path + ".zip") and not os.path.exists(path):
-            raise FileNotFoundError(f"Checkpoint not found: {path}")
+        """Load a previously saved model.
+
+        If the file is not found locally, attempts to download from Firebase Storage.
+        """
+        local_zip = path if path.endswith(".zip") else path + ".zip"
+        base_path = path.replace(".zip", "")
+        run_id = os.path.basename(base_path)
+
+        # If not local, try downloading from Firebase Storage
+        if not os.path.exists(local_zip):
+            import asyncio
+            try:
+                loop = asyncio.new_event_loop()
+                loop.run_until_complete(
+                    self.firebase.download_checkpoint(run_id, local_zip)
+                )
+                loop.close()
+            except Exception as exc:
+                raise FileNotFoundError(f"Checkpoint not found locally or in Firebase: {path}") from exc
+
         # Determine algo from filename
         algo_name = "SAC"
         for name in ALGO_MAP:
-            if name.lower() in path.lower():
+            if name.lower() in base_path.lower():
                 algo_name = name
                 break
         AlgoClass = ALGO_MAP[algo_name]
-        self.model = AlgoClass.load(path)
+        self.model = AlgoClass.load(base_path)
         self.status = TrainingStatus.COMPLETED
-        logger.info(f"Loaded checkpoint: {path} ({algo_name})")
+        logger.info(f"Loaded checkpoint: {base_path} ({algo_name})")
 
-        # Try to load associated metrics
-        metrics_file = path + "_metrics.json"
-        if not os.path.exists(metrics_file):
-            metrics_file = path.replace(".zip", "") + "_metrics.json"
+        # Try to load associated metrics (local first, then Firebase)
+        metrics_file = base_path + "_metrics.json"
         if os.path.exists(metrics_file):
             try:
                 with open(metrics_file, "r") as f:
@@ -537,30 +603,85 @@ class RLAgentManager:
                 logger.info(f"Loaded metrics history ({len(self._latest_metrics_history)} points)")
             except Exception:
                 pass
+        else:
+            # Try loading metrics from Firebase
+            import asyncio
+            try:
+                loop = asyncio.new_event_loop()
+                data = loop.run_until_complete(
+                    self.firebase.get_training_metrics(run_id)
+                )
+                loop.close()
+                if data:
+                    self._latest_metrics_history = data.get("metrics_history", [])
+                    self._latest_run_id = run_id
+                    logger.info(f"Loaded metrics from Firebase ({len(self._latest_metrics_history)} points)")
+            except Exception:
+                pass
 
     def list_checkpoints(self) -> list[dict]:
-        """List available model checkpoints with metrics summary."""
-        checkpoints = []
+        """List available model checkpoints with metrics summary.
+
+        Merges checkpoints from Firebase Firestore with any local-only
+        checkpoints that haven't been uploaded yet.
+        """
+        seen_ids: set[str] = set()
+        checkpoints: list[dict] = []
+
+        # 1. Get checkpoints from Firebase
+        import asyncio
+        try:
+            loop = asyncio.new_event_loop()
+            fb_checkpoints = loop.run_until_complete(
+                self.firebase.list_checkpoints()
+            )
+            loop.close()
+            for cp in fb_checkpoints:
+                run_id = cp.get("run_id", "")
+                seen_ids.add(run_id)
+                checkpoints.append({
+                    "name": run_id,
+                    "path": cp.get("local_path", os.path.join(settings.RL_CHECKPOINT_DIR, run_id + ".zip")),
+                    "size_mb": cp.get("checkpoint_size_mb", 0),
+                    "created": cp.get("created_at", ""),
+                    "algorithm": cp.get("algorithm", "SAC"),
+                    "source": "firebase",
+                    "metrics_summary": {
+                        "best_reward": _safe_float(cp.get("best_reward")),
+                        "avg_reward": _safe_float(cp.get("avg_reward")),
+                        "episodes": cp.get("episodes"),
+                        "training_time": _safe_float(cp.get("training_time_seconds")),
+                    },
+                })
+        except Exception as exc:
+            logger.warning(f"Could not list Firebase checkpoints: {exc}")
+
+        # 2. Merge any local-only checkpoints not already in Firebase
         cp_dir = settings.RL_CHECKPOINT_DIR
         if os.path.exists(cp_dir):
             for f in sorted(os.listdir(cp_dir)):
                 if f.endswith(".zip"):
+                    name = f.replace(".zip", "")
+                    if name in seen_ids:
+                        continue
                     fpath = os.path.join(cp_dir, f)
                     cp_info = {
-                        "name": f.replace(".zip", ""),
+                        "name": name,
                         "path": fpath,
                         "size_mb": round(os.path.getsize(fpath) / 1024 / 1024, 2),
                         "created": datetime.fromtimestamp(
                             os.path.getctime(fpath)
                         ).isoformat(),
+                        "source": "local",
                     }
-                    # Attach metrics summary if available
+                    # Attach metrics summary from local JSON if available
                     metrics_file = fpath.replace(".zip", "_metrics.json")
                     if os.path.exists(metrics_file):
                         try:
                             with open(metrics_file, "r") as mf:
                                 mdata = json.load(mf)
                             fm = mdata.get("final_metrics", {})
+                            cp_info["algorithm"] = mdata.get("config", {}).get("algorithm", "SAC")
                             cp_info["metrics_summary"] = {
                                 "best_reward": _safe_float(fm.get("best_reward")),
                                 "avg_reward": _safe_float(fm.get("avg_reward")),
@@ -576,13 +697,13 @@ class RLAgentManager:
         return checkpoints
 
     def get_run_metrics(self, run_id: Optional[str] = None) -> Optional[dict]:
-        """Get the full metrics for a training run."""
+        """Get the full metrics for a training run (local file → Firebase → in-memory)."""
         if run_id is None:
             run_id = self._latest_run_id
         if run_id is None:
             return None
 
-        # Try to load from file
+        # 1. Try to load from local file
         metrics_file = os.path.join(
             settings.RL_CHECKPOINT_DIR, f"{run_id}_metrics.json"
         )
@@ -590,7 +711,20 @@ class RLAgentManager:
             with open(metrics_file, "r") as f:
                 return json.load(f)
 
-        # Return in-memory history if this is the current run
+        # 2. Try Firebase
+        import asyncio
+        try:
+            loop = asyncio.new_event_loop()
+            data = loop.run_until_complete(
+                self.firebase.get_training_metrics(run_id)
+            )
+            loop.close()
+            if data:
+                return data
+        except Exception:
+            pass
+
+        # 3. Return in-memory history if this is the current run
         if run_id == self._latest_run_id and self._latest_metrics_history:
             return {
                 "run_id": run_id,
