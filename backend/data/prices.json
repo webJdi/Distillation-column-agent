@@ -1,0 +1,19 @@
+{
+  "prices_default": {
+    "scenario_name": "default",
+    "prices": {
+      "Uncondensed_Gas": 0.3,
+      "USN": 0.72,
+      "HN": 0.68,
+      "SKO": 0.75,
+      "LD": 0.6,
+      "HD": 0.55,
+      "Vac_Diesel": 0.52,
+      "VGO": 0.48,
+      "Slop_Cut": 0.25,
+      "Vac_Residue": 0.2,
+      "Feed_Crude": 0.45
+    },
+    "updated_at": "2026-03-05T04:28:54.334601"
+  }
+}

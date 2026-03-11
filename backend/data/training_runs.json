@@ -1,0 +1,59 @@
+{
+  "cdu_SAC_20260305_103740": {
+    "run_id": "cdu_SAC_20260305_103740",
+    "algorithm": "SAC",
+    "total_timesteps": 50000,
+    "best_reward": 60.97261047363281,
+    "avg_reward": 50.42280197143555,
+    "episodes": 250,
+    "training_time_seconds": 2265.37,
+    "config": {
+      "algorithm": "SAC",
+      "total_timesteps": 50000,
+      "learning_rate": 0.0003,
+      "batch_size": 256,
+      "gamma": 0.99,
+      "scenario_name": "default",
+      "use_curriculum": true
+    },
+    "created_at": "2026-03-05T05:07:41.474033"
+  },
+  "cdu_SAC_20260307_103210": {
+    "run_id": "cdu_SAC_20260307_103210",
+    "algorithm": "SAC",
+    "total_timesteps": 1000,
+    "best_reward": -3601.46240234375,
+    "avg_reward": -3604.70166015625,
+    "episodes": 5,
+    "training_time_seconds": 6.0,
+    "config": {
+      "algorithm": "SAC",
+      "total_timesteps": 1000,
+      "learning_rate": 0.0003,
+      "batch_size": 256,
+      "gamma": 0.99,
+      "scenario_name": "default",
+      "use_curriculum": true
+    },
+    "created_at": "2026-03-07T05:02:10.199269"
+  },
+  "cdu_SAC_20260309_102524": {
+    "run_id": "cdu_SAC_20260309_102524",
+    "algorithm": "SAC",
+    "total_timesteps": 50000,
+    "best_reward": -3591.43896484375,
+    "avg_reward": -3605.515869140625,
+    "episodes": 250,
+    "training_time_seconds": 2259.01,
+    "config": {
+      "algorithm": "SAC",
+      "total_timesteps": 50000,
+      "learning_rate": 0.0003,
+      "batch_size": 256,
+      "gamma": 0.99,
+      "scenario_name": "default",
+      "use_curriculum": true
+    },
+    "created_at": "2026-03-09T04:55:25.814689"
+  }
+}

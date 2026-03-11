@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* ── Custom theme tokens ───────────────────────────────────────── */
+:root {
+  --color-brand: #3b82f6;
+  --color-brand-dark: #2563eb;
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-surface: #111827;
+  --color-surface-2: #1f2937;
+  --color-surface-3: #374151;
+}
+
+/* ── Base ───────────────────────────────────────────────────────── */
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Scrollbar ──────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #6b7280; }
+
+/* ── Card glass effect ──────────────────────────────────────────── */
+.glass-card {
+  background: rgba(17, 24, 39, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(75, 85, 99, 0.3);
+  border-radius: 12px;
+}
+
+/* ── Animations ─────────────────────────────────────────────────── */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in { animation: fade-in 0.3s ease-out; }
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 8px rgba(59,130,246,0.3); }
+  50%      { box-shadow: 0 0 20px rgba(59,130,246,0.6); }
+}
+.pulse-glow { animation: pulse-glow 2s infinite; }
+
+/* ── Gauge animation ────────────────────────────────────────────── */
+@keyframes gauge-fill {
+  from { stroke-dashoffset: 283; }
+}
+.gauge-ring { animation: gauge-fill 1s ease-out; }
