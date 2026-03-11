@@ -3,6 +3,24 @@
 A Deep Reinforcement Learning system that optimizes a Crude Distillation Unit (CDU)
 simulated in DWSIM to maximize profitability across product streams.
 
+
+
+---
+
+## Repo Navigation guide:
+
+Folders                         |                       Remarks
+Assay data                      |                       Contains assay related files in xls & pdf
+backend                         |                       FastAPI backend for app
+Data Analysis                   |                       Data analysis notebook
+distvenv                        |                       Virtual Env for app
+frontend                        |                       Nextjs front end app
+Report                          |                       Whitepaper report for the project
+RL_agent                        |                       RL agent training notebook
+scripts                         |                       back-up scripts for testing aux func
+Sim_models                      |                       DWSim simulation files
+
+
 ---
 
 ## Notebooks
@@ -12,6 +30,12 @@ Note: The notebooks have been created and ran with internal relative paths. In c
 1. **Data Analysis notebook**: For the study, five crude assays (Azeri Light, Erha, Tapis, Upper Zakum, WTI Light) have been chosen. Detailed analysis of the assay reports have been ran in the notebook.
 
 2. **RL Agent training notebook**: Various RL agents have been trained connecting the agent to the DWSim simulation file to understand the best case which can be used.
+
+3. **AI Agent notebook**: Builds three different AI Agent personas, Process Engineer, Corrosion expert and a daily report generator which connects with the simulation and the RL agent and advises various improvements, and generates report.
+
+
+
+
 
 
 
