@@ -9,16 +9,16 @@ simulated in DWSIM to maximize profitability across product streams.
 
 ## Repo Navigation guide:
 
-Folders                         |                       Remarks
-Assay data                      |                       Contains assay related files in xls & pdf
-backend                         |                       FastAPI backend for app
-Data Analysis                   |                       Data analysis notebook
-distvenv                        |                       Virtual Env for app
-frontend                        |                       Nextjs front end app
-Report                          |                       Whitepaper report for the project
-RL_agent                        |                       RL agent training notebook
-scripts                         |                       back-up scripts for testing aux func
-Sim_models                      |                       DWSim simulation files
+Folders-------------------------|-----------------------Remarks
+Assay data----------------------|-----------------------Contains assay related files in xls & pdf
+backend-------------------------|-----------------------FastAPI backend for app
+Data Analysis-------------------|-----------------------Data analysis notebook
+distvenv------------------------|-----------------------Virtual Env for app
+frontend------------------------|-----------------------Nextjs front end app
+Report--------------------------|-----------------------Whitepaper report for the project
+RL_agent------------------------|-----------------------RL agent training notebook
+scripts-------------------------|-----------------------back-up scripts for testing aux func
+Sim_models----------------------|-----------------------DWSim simulation files
 
 
 ---
