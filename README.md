@@ -3,7 +3,7 @@
 A Deep Reinforcement Learning system that optimizes a Crude Distillation Unit (CDU)
 simulated in DWSIM to maximize profitability across product streams.
 
-
+![alt text](image.png)
 
 ---
 
