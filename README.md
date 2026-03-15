@@ -141,9 +141,12 @@ Then open **http://localhost:5173**
 ### API Documentation
 Once backend is running: **http://localhost:8000/docs** (Swagger UI)
 
+### DWSIm simulation location:
+This is very crucial. This needs to be updated at the backend in order for the notebook and the app to perform correctly, in case of changes.
+
 ## Configuration
 
-Copy `.env.example` → `.env` and configure:
+Create `.env` and configure:
 
 | Variable | Description | Required |
 |----------|------------|----------|
