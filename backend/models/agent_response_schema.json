@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AgentResponse",
+  "description": "Structured response schema for CDU+NSU+VDU AI agent personas",
+  "type": "object",
+  "properties": {
+    "summary": {
+      "type": "string",
+      "description": "1-2 sentence executive summary of the analysis"
+    },
+    "analysis": {
+      "type": "string",
+      "description": "Detailed technical analysis with reasoning"
+    },
+    "recommendations": {
+      "type": "array",
+      "items": { "type": "string" },
+      "maxItems": 10,
+      "description": "Ordered list of actionable recommendations"
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": ["GREEN", "YELLOW", "RED"],
+      "description": "Overall risk assessment (GREEN=normal, YELLOW=caution, RED=critical)"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Agent confidence in its analysis (0=low, 1=high)"
+    },
+    "numeric_results": {
+      "type": "object",
+      "description": "Any numeric outputs (profit, temperatures, flows, etc.)",
+      "additionalProperties": true
+    }
+  },
+  "required": ["summary", "analysis"],
+  "additionalProperties": true
+}
