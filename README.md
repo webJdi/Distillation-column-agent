@@ -29,7 +29,13 @@ scripts-------------------------|-----------------------back-up scripts for test
 
 Sim_models----------------------|-----------------------DWSim simulation files
 
+---
 
+## Installation
+
+To setup the entirety of the project locally, please clone the github repo locally.
+Additionally, setup a virtual environment and install all the dependencies listed in requirements.txt
+Also, the project requires DWSIM v9 to run the simulation files.
 
 ---
 
