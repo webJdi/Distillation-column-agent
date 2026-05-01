@@ -98,14 +98,15 @@ const ttStyle = {
 
 /* ── main page ───────────────────────────────────────────────────── */
 export default function TrainingPage() {
-  const { progress, connected } = useTrainingWebSocket();
+  const { progress, connected, requestProgress } = useTrainingWebSocket();
   const [config, setConfig] = useState({
     algorithm: "SAC",
-    total_timesteps: 50000,
+    total_timesteps: 500,
     learning_rate: 0.0003,
-    batch_size: 256,
+    batch_size: 64,
     gamma: 0.99,
-    use_curriculum: true,
+    max_episode_steps: 50,
+    use_curriculum: false,
     scenario_name: "default",
   });
   const [status, setStatus] = useState("idle");
@@ -123,6 +124,13 @@ export default function TrainingPage() {
   /* latest scalar values (for metric cards) ─────────────────────── */
   const latest = useRef({});
 
+  /* stop-in-progress flag (ref avoids stale-closure in WS effect) ── */
+  const isStoppingRef = useRef(false);
+  const [isStopping, setIsStopping] = useState(false);
+
+  /* track WS reconnects to recover state after backend restart ───── */
+  const prevConnected = useRef(false);
+
   /* ── initial data load ─────────────────────────────────────────── */
   useEffect(() => {
     trainingStatus()
@@ -139,6 +147,18 @@ export default function TrainingPage() {
       })
       .catch(() => {});
   }, []);
+
+  /* ── on WS connect: fetch current state immediately ───────────── */
+  useEffect(() => {
+    if (connected && !prevConnected.current) {
+      // Just (re)connected — get current progress without waiting for next broadcast
+      requestProgress();
+      // If we were mid-stop and WS reconnected, assume backend restarted → clear flag
+      isStoppingRef.current = false;
+      setIsStopping(false);
+    }
+    prevConnected.current = connected;
+  }, [connected, requestProgress]);
 
   /* ── ingest a full metrics history array (after load/completion) ── */
   const _ingestFullHistory = useCallback((history) => {
@@ -198,7 +218,17 @@ export default function TrainingPage() {
     if (!progress) return;
     const m = progress;
     latest.current = m;
-    setStatus(m.status);
+
+    // While stopping, ignore "training" broadcasts — they are in-flight from
+    // the thread that hasn't detected the stop event yet. Only update status
+    // when the backend confirms the actual new state ("stopped"/"idle"/etc.).
+    if (m.status === "stopped") {
+      isStoppingRef.current = false;
+      setIsStopping(false);
+      setStatus("idle");
+    } else if (!isStoppingRef.current || m.status !== "training") {
+      setStatus(m.status);
+    }
 
     const step = m.current_step || 0;
 
@@ -334,24 +364,37 @@ export default function TrainingPage() {
   const handleStop = async () => {
     try {
       await stopTraining();
-      setStatus("idle");
-      toast.success("Training stopped");
+      isStoppingRef.current = true;
+      setIsStopping(true);
+      toast("Stop requested — waiting for current step to finish…");
     } catch {
-      toast.error("Failed to stop");
+      toast.error("Failed to stop training");
     }
   };
 
   const handleLoadCheckpoint = async (cp) => {
     try {
+      if (isTraining || isStopping) {
+        toast("Stopping training before loading checkpoint…", { icon: "⏳" });
+      }
+      // Backend aborts any running training and waits for the thread
       await loadCheckpoint(cp.path);
-      toast.success("Checkpoint loaded");
-      // Load associated metrics
-      const name = cp.name;
+      isStoppingRef.current = false;
+      setIsStopping(false);
+      setStatus("idle");
+      setRewardHistory([]);
+      setLossHistory([]);
+      setQHistory([]);
+      setGradHistory([]);
+      setBufferHistory([]);
+      setActionDist(null);
+      latest.current = {};
+      toast.success(`Loaded: ${cp.name || cp.path}`);
       const resp = await getLatestMetrics();
       const hist = resp.data?.metrics_history || [];
       if (hist.length > 0) _ingestFullHistory(hist);
-    } catch {
-      toast.error("Failed to load checkpoint");
+    } catch (err) {
+      toast.error(err.response?.data?.detail || "Failed to load checkpoint");
     }
   };
 
@@ -396,12 +439,21 @@ export default function TrainingPage() {
           >
             <Settings size={18} />
           </button>
-          {isTraining ? (
+          {isTraining || isStopping ? (
             <button
               onClick={handleStop}
-              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-red-600 hover:bg-red-700 text-white font-medium transition"
+              disabled={isStopping}
+              className={`flex items-center gap-2 px-4 py-2 rounded-lg text-white font-medium transition ${
+                isStopping
+                  ? "bg-red-800 opacity-60 cursor-not-allowed"
+                  : "bg-red-600 hover:bg-red-700"
+              }`}
             >
-              <Square size={16} /> Stop
+              {isStopping ? (
+                <><RefreshCw size={16} className="animate-spin" /> Stopping…</>
+              ) : (
+                <><Square size={16} /> Stop</>
+              )}
             </button>
           ) : (
             <button
@@ -419,10 +471,11 @@ export default function TrainingPage() {
         <div className="glass-card p-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 animate-fade-in">
           {[
             { key: "algorithm", label: "Algorithm", type: "select", options: ["SAC", "PPO", "TD3"] },
-            { key: "total_timesteps", label: "Total Steps", type: "number", min: 1000, max: 1000000, step: 10000 },
+            { key: "total_timesteps", label: "Total Steps", type: "number", min: 100, max: 1000000, step: 100 },
             { key: "learning_rate", label: "Learning Rate", type: "number", min: 0.000001, max: 0.1, step: 0.0001 },
             { key: "batch_size", label: "Batch Size", type: "number", min: 32, max: 2048, step: 32 },
             { key: "gamma", label: "Gamma (γ)", type: "number", min: 0.9, max: 0.999, step: 0.001 },
+            { key: "max_episode_steps", label: "Episode Steps", type: "number", min: 10, max: 500, step: 1 },
             { key: "scenario_name", label: "Price Scenario", type: "text" },
           ].map(({ key, label, type, options, ...rest }) => (
             <div key={key}>

@@ -68,10 +68,12 @@ class ProgressCallback(BaseCallback):
         broadcast_fn: Optional[Callable[[dict], None]] = None,
         log_interval: int = 100,
         verbose: int = 0,
+        stop_event: Optional[threading.Event] = None,
     ):
         super().__init__(verbose)
         self.broadcast_fn = broadcast_fn
         self.log_interval = log_interval
+        self.stop_event = stop_event
 
         # Episode tracking
         self.episode_rewards: list[float] = []
@@ -117,6 +119,11 @@ class ProgressCallback(BaseCallback):
                 self.broadcast_fn(metrics)
             except Exception as exc:
                 logger.warning(f"Broadcast failed: {exc}")
+
+        # Stop training if requested via stop event
+        if self.stop_event is not None and self.stop_event.is_set():
+            logger.info("Stop event detected — terminating training loop")
+            return False
 
         return True  # continue training
 
@@ -168,7 +175,7 @@ class ProgressCallback(BaseCallback):
             "status": "training",
             "current_step": self.num_timesteps,
             "total_steps": self.locals.get("total_timesteps", 0),
-            "episode": self.episode_count,
+            "episode": CDUEnvironment._episode_number,
             "episode_reward": (
                 self.episode_rewards[-1] if self.episode_rewards else 0.0
             ),
@@ -304,6 +311,7 @@ class RLAgentManager:
         self._latest_progress: Optional[dict] = None
         self._latest_run_id: Optional[str] = None
         self._latest_metrics_history: list[dict] = []
+        self._stop_event = threading.Event()
 
         # Firebase service for persistence
         self.firebase = FirebaseService()
@@ -340,6 +348,7 @@ class RLAgentManager:
         self.config = config
         self.status = TrainingStatus.TRAINING
         self._latest_metrics_history = []
+        self._stop_event.clear()  # reset stop flag for new training run
 
         def _store_and_broadcast(data: dict):
             self._latest_progress = data
@@ -369,7 +378,7 @@ class RLAgentManager:
             def make_env():
                 env = CDUEnvironment(
                     prices=prices,
-                    max_steps=200,
+                    max_steps=config.max_episode_steps,
                     curriculum_level=1.0 if not config.use_curriculum else 0.3,
                     use_mock=use_mock,
                 )
@@ -391,17 +400,20 @@ class RLAgentManager:
             }
 
             # SAC-specific kwargs
+            if config.algorithm in ("SAC", "TD3"):
+                model_kwargs["buffer_size"] = 10_000
+                model_kwargs["learning_starts"] = 100
+
             if config.algorithm == "SAC":
                 model_kwargs["tau"] = settings.RL_TAU
-                model_kwargs["buffer_size"] = settings.RL_BUFFER_SIZE
-                model_kwargs["learning_starts"] = 1000
 
             self.model = AlgoClass(**model_kwargs)
 
             # Enhanced callback with detailed metrics
             self._progress_callback = ProgressCallback(
                 broadcast_fn=broadcast_fn,
-                log_interval=max(100, config.total_timesteps // 500),
+                log_interval=max(10, config.total_timesteps // 500),
+                stop_event=self._stop_event,
             )
 
             # Curriculum learning: train in stages
@@ -412,6 +424,8 @@ class RLAgentManager:
                     (1.0, config.total_timesteps - 2 * (config.total_timesteps // 3)),
                 ]
                 for level, steps in stages:
+                    if self._stop_event.is_set():
+                        break
                     self.env.curriculum_level = level
                     logger.info(f"Curriculum stage: level={level}, steps={steps}")
                     self.model.learn(
@@ -424,6 +438,24 @@ class RLAgentManager:
                     total_timesteps=config.total_timesteps,
                     callback=self._progress_callback,
                 )
+
+            # If training was stopped early, broadcast stopped status and exit
+            if self._stop_event.is_set():
+                elapsed = time.time() - self._training_start_time
+                logger.info(f"Training stopped by user after {elapsed:.1f}s")
+                if broadcast_fn:
+                    cb = self._progress_callback
+                    broadcast_fn({
+                        "status": "stopped",
+                        "current_step": cb.num_timesteps if cb else 0,
+                        "total_steps": config.total_timesteps,
+                        "episode": cb.episode_count if cb else 0,
+                        "avg_reward": float(np.mean(cb.episode_rewards[-100:])) if cb and cb.episode_rewards else 0.0,
+                        "training_time_seconds": round(elapsed, 2),
+                        "timestamp": datetime.utcnow().isoformat(),
+                    })
+                self.status = TrainingStatus.IDLE
+                return
 
             # Save checkpoint
             elapsed = time.time() - self._training_start_time
@@ -561,10 +593,17 @@ class RLAgentManager:
         return action
 
     def load_checkpoint(self, path: str) -> None:
-        """Load a previously saved model.
+        """Load a previously saved model, aborting any active training first.
 
         If the file is not found locally, attempts to download from Firebase Storage.
         """
+        if self.is_training:
+            logger.info("load_checkpoint: aborting active training before loading")
+            self._stop_event.set()
+            if self._training_thread and self._training_thread.is_alive():
+                self._training_thread.join(timeout=60)
+            self.status = TrainingStatus.IDLE
+
         local_zip = path if path.endswith(".zip") else path + ".zip"
         base_path = path.replace(".zip", "")
         run_id = os.path.basename(base_path)
@@ -734,6 +773,7 @@ class RLAgentManager:
         return None
 
     def stop_training(self) -> None:
-        """Request training to stop (will finish current episode)."""
-        self.status = TrainingStatus.IDLE
-        logger.info("Training stop requested")
+        """Signal training to stop at the next callback step.
+        Status stays TRAINING until the thread actually exits."""
+        self._stop_event.set()
+        logger.info("Training stop requested — stop event set")

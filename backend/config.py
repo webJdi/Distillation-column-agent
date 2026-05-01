@@ -22,9 +22,10 @@ class Settings(BaseSettings):
     FIREBASE_CREDENTIALS_PATH: Optional[str] = None
     FIREBASE_PROJECT_ID: Optional[str] = None
 
-    # Google Gemini (for AI Agent)
-    GEMINI_API_KEY: Optional[str] = None
-    GEMINI_MODEL: str = "gemini-2.0-flash"
+    # Nvidia Nemotron 3 Nano via OpenRouter (for AI Agent)
+    OPENROUTER_API_KEY: Optional[str] = None
+    OPENROUTER_MODEL: str = "nvidia/nemotron-3-nano-30b-a3b:free"
+    OPENROUTER_BASE: str = "https://openrouter.ai/api/v1/chat/completions"
 
     # RL Training
     RL_LEARNING_RATE: float = 3e-4

@@ -41,6 +41,9 @@ export const getTrainingMetrics = (runId) =>
     ? api.get(`/training/metrics/${encodeURIComponent(runId)}`)
     : api.get("/training/metrics");
 export const getLatestMetrics = () => api.get("/training/metrics");
+export const getOptimizationScope = () => api.get("/training/optimization-scope");
+export const getKpiStats = () => api.get("/training/kpi-stats");
+export const resetKpiStats = () => api.post("/training/kpi-reset");
 
 // ── Disturbance ─────────────────────────────────────────────────
 export const analyzeDisturbance = (dist) =>

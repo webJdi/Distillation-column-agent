@@ -16,8 +16,7 @@ firebase-admin==6.7.0
 # DWSIM Bridge (pythonnet)
 pythonnet==3.0.5
 
-# AI Agent (Google Gemini)
-google-generativeai>=0.8.0
+# AI Agent (Nvidia Nemotron via OpenRouter — uses httpx, already listed below)
 
 # Data & Reports
 pandas==2.2.3

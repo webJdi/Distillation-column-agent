@@ -27,21 +27,27 @@ const NAV = [
 
 export default function App() {
   return (
-    <div className="flex h-screen overflow-hidden">
+    <div className="app-shell flex">
       <Toaster
         position="top-right"
         toastOptions={{
-          style: { background: "#1f2937", color: "#f3f4f6", border: "1px solid #374151" },
+          style: {
+            background: "rgba(19, 29, 44, 0.9)",
+            color: "#d7e9fb",
+            border: "1px solid rgba(110, 138, 168, 0.35)",
+            boxShadow: "0 10px 24px rgba(3, 8, 17, 0.45)",
+            backdropFilter: "blur(12px)",
+          },
         }}
       />
 
       {/* ── Sidebar ──────────────────────────────────────────── */}
-      <aside className="w-56 shrink-0 bg-gray-900 border-r border-gray-800 flex flex-col">
-        <div className="p-5 border-b border-gray-800">
-          <h1 className="text-lg font-bold text-blue-400 tracking-tight">
-            CDU Optimizer
+      <aside className="app-sidebar w-56 shrink-0 flex flex-col">
+        <div className="p-5 border-b border-gray-800/60">
+          <h1 className="app-brand text-lg font-bold tracking-tight">
+            Cognito
           </h1>
-          <p className="text-[11px] text-gray-500 mt-0.5">RL-Powered Distillation</p>
+          <p className="app-subtitle text-[11px] mt-0.5">Deep RL Process Optimizer</p>
         </div>
 
         <nav className="flex-1 py-4 space-y-1 px-3">
@@ -51,10 +57,8 @@ export default function App() {
               to={to}
               end={to === "/"}
               className={({ isActive }) =>
-                `flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors ${
-                  isActive
-                    ? "bg-blue-600/20 text-blue-400"
-                    : "text-gray-400 hover:bg-gray-800 hover:text-gray-200"
+                `nav-link flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-semibold transition-colors ${
+                  isActive ? "nav-link-active" : ""
                 }`
               }
             >
@@ -64,13 +68,13 @@ export default function App() {
           ))}
         </nav>
 
-        <div className="p-4 border-t border-gray-800 text-[11px] text-gray-600">
+        <div className="p-4 border-t border-gray-800/60 text-[11px] text-gray-600">
           v1.0.0 &middot; DWSIM + SAC
         </div>
       </aside>
 
       {/* ── Main content ─────────────────────────────────────── */}
-      <main className="flex-1 overflow-auto bg-gray-950 p-6">
+      <main className="app-main flex-1 overflow-auto p-6">
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/prices" element={<PricesPage />} />

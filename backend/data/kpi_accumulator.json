@@ -1,0 +1,578 @@
+{
+  "runs": [
+    {
+      "timestamp": "2026-05-01T14:23:51.889031",
+      "distillate_yield_improvement": 10.49,
+      "energy_savings": 229.7,
+      "profit_generated": 10.39,
+      "profit_delta": 10.39,
+      "base_profit": 521.37,
+      "opt_profit": 531.76
+    },
+    {
+      "timestamp": "2026-05-01T14:23:56.910243",
+      "distillate_yield_improvement": 9.03,
+      "energy_savings": 212.52,
+      "profit_generated": 13.8,
+      "profit_delta": 13.8,
+      "base_profit": 502.39,
+      "opt_profit": 516.19
+    },
+    {
+      "timestamp": "2026-05-01T14:24:41.049207",
+      "distillate_yield_improvement": 13.54,
+      "energy_savings": 0.0,
+      "profit_generated": 51.24,
+      "profit_delta": 51.24,
+      "base_profit": 514.93,
+      "opt_profit": 566.17
+    },
+    {
+      "timestamp": "2026-05-01T14:24:49.314788",
+      "distillate_yield_improvement": 7.48,
+      "energy_savings": 0.0,
+      "profit_generated": 75.02,
+      "profit_delta": 75.02,
+      "base_profit": 520.09,
+      "opt_profit": 595.11
+    },
+    {
+      "timestamp": "2026-05-01T14:25:02.737732",
+      "distillate_yield_improvement": 17.29,
+      "energy_savings": 97.9,
+      "profit_generated": 9.55,
+      "profit_delta": 9.55,
+      "base_profit": 489.72,
+      "opt_profit": 499.27
+    },
+    {
+      "timestamp": "2026-05-01T14:25:08.044964",
+      "distillate_yield_improvement": 9.12,
+      "energy_savings": 1146.1,
+      "profit_generated": 7.98,
+      "profit_delta": 7.98,
+      "base_profit": 493.79,
+      "opt_profit": 501.77
+    },
+    {
+      "timestamp": "2026-05-01T14:25:13.600720",
+      "distillate_yield_improvement": 13.2,
+      "energy_savings": 0.0,
+      "profit_generated": 0.95,
+      "profit_delta": 0.95,
+      "base_profit": 527.76,
+      "opt_profit": 528.71
+    },
+    {
+      "timestamp": "2026-05-01T14:25:18.608253",
+      "distillate_yield_improvement": 16.06,
+      "energy_savings": 988.19,
+      "profit_generated": 7.97,
+      "profit_delta": 7.97,
+      "base_profit": 483.29,
+      "opt_profit": 491.26
+    },
+    {
+      "timestamp": "2026-05-01T14:25:28.607835",
+      "distillate_yield_improvement": 4.45,
+      "energy_savings": 1138.06,
+      "profit_generated": 6.72,
+      "profit_delta": 6.72,
+      "base_profit": 528.04,
+      "opt_profit": 534.76
+    },
+    {
+      "timestamp": "2026-05-01T14:25:33.439776",
+      "distillate_yield_improvement": 0.08,
+      "energy_savings": 360.38,
+      "profit_generated": 1.5,
+      "profit_delta": 1.5,
+      "base_profit": 536.75,
+      "opt_profit": 538.25
+    },
+    {
+      "timestamp": "2026-05-01T14:25:48.619711",
+      "distillate_yield_improvement": 6.27,
+      "energy_savings": 111.68,
+      "profit_generated": 7.72,
+      "profit_delta": 7.72,
+      "base_profit": 582.03,
+      "opt_profit": 589.75
+    },
+    {
+      "timestamp": "2026-05-01T14:25:53.608979",
+      "distillate_yield_improvement": 11.61,
+      "energy_savings": 33.73,
+      "profit_generated": 9.63,
+      "profit_delta": 9.63,
+      "base_profit": 509.7,
+      "opt_profit": 519.33
+    },
+    {
+      "timestamp": "2026-05-01T14:26:03.643742",
+      "distillate_yield_improvement": 16.67,
+      "energy_savings": 0.0,
+      "profit_generated": 6.83,
+      "profit_delta": 6.83,
+      "base_profit": 542.9,
+      "opt_profit": 549.73
+    },
+    {
+      "timestamp": "2026-05-01T14:26:08.553598",
+      "distillate_yield_improvement": 5.6,
+      "energy_savings": 603.77,
+      "profit_generated": 16.5,
+      "profit_delta": 16.5,
+      "base_profit": 478.28,
+      "opt_profit": 494.78
+    },
+    {
+      "timestamp": "2026-05-01T14:26:13.556816",
+      "distillate_yield_improvement": 7.21,
+      "energy_savings": 0.0,
+      "profit_generated": 2.11,
+      "profit_delta": 2.11,
+      "base_profit": 523.14,
+      "opt_profit": 525.25
+    },
+    {
+      "timestamp": "2026-05-01T14:26:18.573145",
+      "distillate_yield_improvement": 1.91,
+      "energy_savings": 1121.06,
+      "profit_generated": 6.2,
+      "profit_delta": 6.2,
+      "base_profit": 542.84,
+      "opt_profit": 549.04
+    },
+    {
+      "timestamp": "2026-05-01T14:26:23.653845",
+      "distillate_yield_improvement": 9.44,
+      "energy_savings": 0.0,
+      "profit_generated": 10.75,
+      "profit_delta": 10.75,
+      "base_profit": 523.55,
+      "opt_profit": 534.3
+    },
+    {
+      "timestamp": "2026-05-01T14:26:28.634506",
+      "distillate_yield_improvement": -5.27,
+      "energy_savings": 336.43,
+      "profit_generated": 2.58,
+      "profit_delta": 2.58,
+      "base_profit": 501.42,
+      "opt_profit": 504.0
+    },
+    {
+      "timestamp": "2026-05-01T14:26:33.631550",
+      "distillate_yield_improvement": 3.67,
+      "energy_savings": 0.0,
+      "profit_generated": 4.47,
+      "profit_delta": 4.47,
+      "base_profit": 542.43,
+      "opt_profit": 546.9
+    },
+    {
+      "timestamp": "2026-05-01T14:26:41.657562",
+      "distillate_yield_improvement": 17.98,
+      "energy_savings": 0.0,
+      "profit_generated": 8.48,
+      "profit_delta": 8.48,
+      "base_profit": 526.68,
+      "opt_profit": 535.16
+    },
+    {
+      "timestamp": "2026-05-01T14:27:41.648833",
+      "distillate_yield_improvement": 9.39,
+      "energy_savings": 0.0,
+      "profit_generated": 11.57,
+      "profit_delta": 11.57,
+      "base_profit": 519.56,
+      "opt_profit": 531.13
+    },
+    {
+      "timestamp": "2026-05-01T14:28:41.740656",
+      "distillate_yield_improvement": 11.17,
+      "energy_savings": 0.0,
+      "profit_generated": 14.32,
+      "profit_delta": 14.32,
+      "base_profit": 536.58,
+      "opt_profit": 550.9
+    },
+    {
+      "timestamp": "2026-05-01T14:29:41.658525",
+      "distillate_yield_improvement": 10.59,
+      "energy_savings": 137.41,
+      "profit_generated": 4.84,
+      "profit_delta": 4.84,
+      "base_profit": 535.83,
+      "opt_profit": 540.67
+    },
+    {
+      "timestamp": "2026-05-01T14:30:41.656759",
+      "distillate_yield_improvement": 18.88,
+      "energy_savings": 0.0,
+      "profit_generated": 17.85,
+      "profit_delta": 17.85,
+      "base_profit": 538.84,
+      "opt_profit": 556.69
+    },
+    {
+      "timestamp": "2026-05-01T14:31:41.908485",
+      "distillate_yield_improvement": 5.0,
+      "energy_savings": 1613.01,
+      "profit_generated": 6.05,
+      "profit_delta": 6.05,
+      "base_profit": 511.54,
+      "opt_profit": 517.59
+    },
+    {
+      "timestamp": "2026-05-01T14:33:41.759015",
+      "distillate_yield_improvement": 4.04,
+      "energy_savings": 0.0,
+      "profit_generated": 8.61,
+      "profit_delta": 8.61,
+      "base_profit": 525.75,
+      "opt_profit": 534.36
+    },
+    {
+      "timestamp": "2026-05-01T14:34:41.616408",
+      "distillate_yield_improvement": 21.3,
+      "energy_savings": 0.0,
+      "profit_generated": 13.23,
+      "profit_delta": 13.23,
+      "base_profit": 516.78,
+      "opt_profit": 530.01
+    },
+    {
+      "timestamp": "2026-05-01T14:35:41.800278",
+      "distillate_yield_improvement": 2.26,
+      "energy_savings": 1316.1,
+      "profit_generated": 6.83,
+      "profit_delta": 6.83,
+      "base_profit": 470.11,
+      "opt_profit": 476.94
+    },
+    {
+      "timestamp": "2026-05-01T14:36:41.784103",
+      "distillate_yield_improvement": 9.57,
+      "energy_savings": 0.0,
+      "profit_generated": 2.04,
+      "profit_delta": 2.04,
+      "base_profit": 499.6,
+      "opt_profit": 501.64
+    },
+    {
+      "timestamp": "2026-05-01T14:37:41.756898",
+      "distillate_yield_improvement": 10.69,
+      "energy_savings": 0.0,
+      "profit_generated": 8.49,
+      "profit_delta": 8.49,
+      "base_profit": 513.01,
+      "opt_profit": 521.5
+    },
+    {
+      "timestamp": "2026-05-01T14:38:41.950208",
+      "distillate_yield_improvement": -0.88,
+      "energy_savings": 0.0,
+      "profit_generated": 0.62,
+      "profit_delta": 0.62,
+      "base_profit": 521.74,
+      "opt_profit": 522.36
+    },
+    {
+      "timestamp": "2026-05-01T14:39:41.629219",
+      "distillate_yield_improvement": 7.19,
+      "energy_savings": 0.0,
+      "profit_generated": 9.17,
+      "profit_delta": 9.17,
+      "base_profit": 489.17,
+      "opt_profit": 498.34
+    },
+    {
+      "timestamp": "2026-05-01T14:40:41.661210",
+      "distillate_yield_improvement": 3.36,
+      "energy_savings": 0.0,
+      "profit_generated": 6.03,
+      "profit_delta": 6.03,
+      "base_profit": 497.51,
+      "opt_profit": 503.54
+    },
+    {
+      "timestamp": "2026-05-01T14:41:41.830909",
+      "distillate_yield_improvement": 3.3,
+      "energy_savings": 0.0,
+      "profit_generated": 4.23,
+      "profit_delta": 4.23,
+      "base_profit": 531.37,
+      "opt_profit": 535.6
+    },
+    {
+      "timestamp": "2026-05-01T14:42:41.783884",
+      "distillate_yield_improvement": 8.12,
+      "energy_savings": 302.77,
+      "profit_generated": 9.7,
+      "profit_delta": 9.7,
+      "base_profit": 502.7,
+      "opt_profit": 512.4
+    },
+    {
+      "timestamp": "2026-05-01T14:43:41.620399",
+      "distillate_yield_improvement": 2.06,
+      "energy_savings": 766.14,
+      "profit_generated": 11.72,
+      "profit_delta": 11.72,
+      "base_profit": 490.3,
+      "opt_profit": 502.02
+    },
+    {
+      "timestamp": "2026-05-01T14:44:41.784724",
+      "distillate_yield_improvement": 6.68,
+      "energy_savings": 327.04,
+      "profit_generated": 1.57,
+      "profit_delta": 1.57,
+      "base_profit": 513.18,
+      "opt_profit": 514.75
+    },
+    {
+      "timestamp": "2026-05-01T14:45:41.845913",
+      "distillate_yield_improvement": 13.22,
+      "energy_savings": 560.17,
+      "profit_generated": 19.17,
+      "profit_delta": 19.17,
+      "base_profit": 547.71,
+      "opt_profit": 566.88
+    },
+    {
+      "timestamp": "2026-05-01T14:46:41.650347",
+      "distillate_yield_improvement": 7.51,
+      "energy_savings": 890.15,
+      "profit_generated": 7.92,
+      "profit_delta": 7.92,
+      "base_profit": 522.17,
+      "opt_profit": 530.09
+    },
+    {
+      "timestamp": "2026-05-01T14:47:41.797295",
+      "distillate_yield_improvement": 17.15,
+      "energy_savings": 978.61,
+      "profit_generated": 15.2,
+      "profit_delta": 15.2,
+      "base_profit": 504.8,
+      "opt_profit": 520.0
+    },
+    {
+      "timestamp": "2026-05-01T14:48:41.796094",
+      "distillate_yield_improvement": -3.51,
+      "energy_savings": 341.71,
+      "profit_generated": 6.21,
+      "profit_delta": 6.21,
+      "base_profit": 535.04,
+      "opt_profit": 541.25
+    },
+    {
+      "timestamp": "2026-05-01T14:49:41.785592",
+      "distillate_yield_improvement": 8.45,
+      "energy_savings": 0.0,
+      "profit_generated": 12.06,
+      "profit_delta": 12.06,
+      "base_profit": 508.13,
+      "opt_profit": 520.19
+    },
+    {
+      "timestamp": "2026-05-01T14:50:41.647079",
+      "distillate_yield_improvement": -6.51,
+      "energy_savings": 1188.26,
+      "profit_generated": 3.08,
+      "profit_delta": 3.08,
+      "base_profit": 496.6,
+      "opt_profit": 499.68
+    },
+    {
+      "timestamp": "2026-05-01T14:51:42.008610",
+      "distillate_yield_improvement": 27.53,
+      "energy_savings": 768.23,
+      "profit_generated": 17.62,
+      "profit_delta": 17.62,
+      "base_profit": 493.78,
+      "opt_profit": 511.4
+    },
+    {
+      "timestamp": "2026-05-01T14:52:41.844105",
+      "distillate_yield_improvement": 8.88,
+      "energy_savings": 0.0,
+      "profit_generated": 17.46,
+      "profit_delta": 17.46,
+      "base_profit": 525.25,
+      "opt_profit": 542.71
+    },
+    {
+      "timestamp": "2026-05-01T14:53:41.816999",
+      "distillate_yield_improvement": 5.27,
+      "energy_savings": 0.0,
+      "profit_generated": 8.8,
+      "profit_delta": 8.8,
+      "base_profit": 502.92,
+      "opt_profit": 511.72
+    },
+    {
+      "timestamp": "2026-05-01T14:56:41.843541",
+      "distillate_yield_improvement": 21.35,
+      "energy_savings": 557.65,
+      "profit_generated": 25.6,
+      "profit_delta": 25.6,
+      "base_profit": 496.42,
+      "opt_profit": 522.02
+    },
+    {
+      "timestamp": "2026-05-01T14:57:41.603359",
+      "distillate_yield_improvement": -9.34,
+      "energy_savings": 0.0,
+      "profit_generated": 5.02,
+      "profit_delta": 5.02,
+      "base_profit": 503.66,
+      "opt_profit": 508.68
+    },
+    {
+      "timestamp": "2026-05-01T14:59:41.703622",
+      "distillate_yield_improvement": 19.62,
+      "energy_savings": 510.09,
+      "profit_generated": 14.46,
+      "profit_delta": 14.46,
+      "base_profit": 515.61,
+      "opt_profit": 530.07
+    },
+    {
+      "timestamp": "2026-05-01T15:00:41.682195",
+      "distillate_yield_improvement": 6.47,
+      "energy_savings": 0.0,
+      "profit_generated": 9.32,
+      "profit_delta": 9.32,
+      "base_profit": 528.13,
+      "opt_profit": 537.45
+    },
+    {
+      "timestamp": "2026-05-01T15:01:41.705787",
+      "distillate_yield_improvement": 9.61,
+      "energy_savings": 0.0,
+      "profit_generated": 10.04,
+      "profit_delta": 10.04,
+      "base_profit": 504.97,
+      "opt_profit": 515.01
+    },
+    {
+      "timestamp": "2026-05-01T15:03:41.841512",
+      "distillate_yield_improvement": 11.42,
+      "energy_savings": 0.0,
+      "profit_generated": 1.61,
+      "profit_delta": 1.61,
+      "base_profit": 543.24,
+      "opt_profit": 544.85
+    },
+    {
+      "timestamp": "2026-05-01T15:04:41.692582",
+      "distillate_yield_improvement": 12.71,
+      "energy_savings": 0.0,
+      "profit_generated": 17.05,
+      "profit_delta": 17.05,
+      "base_profit": 542.44,
+      "opt_profit": 559.49
+    },
+    {
+      "timestamp": "2026-05-01T15:06:41.617697",
+      "distillate_yield_improvement": 5.14,
+      "energy_savings": 319.89,
+      "profit_generated": 4.25,
+      "profit_delta": 4.25,
+      "base_profit": 509.16,
+      "opt_profit": 513.41
+    },
+    {
+      "timestamp": "2026-05-01T15:07:41.825314",
+      "distillate_yield_improvement": 14.62,
+      "energy_savings": 499.02,
+      "profit_generated": 6.24,
+      "profit_delta": 6.24,
+      "base_profit": 510.68,
+      "opt_profit": 516.92
+    },
+    {
+      "timestamp": "2026-05-01T15:08:41.841975",
+      "distillate_yield_improvement": 7.58,
+      "energy_savings": 184.99,
+      "profit_generated": 6.96,
+      "profit_delta": 6.96,
+      "base_profit": 513.5,
+      "opt_profit": 520.46
+    },
+    {
+      "timestamp": "2026-05-01T15:11:41.800924",
+      "distillate_yield_improvement": 19.35,
+      "energy_savings": 0.0,
+      "profit_generated": 14.57,
+      "profit_delta": 14.57,
+      "base_profit": 539.69,
+      "opt_profit": 554.26
+    },
+    {
+      "timestamp": "2026-05-01T15:13:41.705389",
+      "distillate_yield_improvement": 5.02,
+      "energy_savings": 0.0,
+      "profit_generated": 5.15,
+      "profit_delta": 5.15,
+      "base_profit": 523.73,
+      "opt_profit": 528.88
+    },
+    {
+      "timestamp": "2026-05-01T15:14:41.708588",
+      "distillate_yield_improvement": 18.74,
+      "energy_savings": 143.71,
+      "profit_generated": 18.69,
+      "profit_delta": 18.69,
+      "base_profit": 468.21,
+      "opt_profit": 486.9
+    },
+    {
+      "timestamp": "2026-05-01T15:15:41.638437",
+      "distillate_yield_improvement": 7.46,
+      "energy_savings": 0.0,
+      "profit_generated": 8.02,
+      "profit_delta": 8.02,
+      "base_profit": 562.8,
+      "opt_profit": 570.82
+    },
+    {
+      "timestamp": "2026-05-01T15:16:41.818396",
+      "distillate_yield_improvement": 11.12,
+      "energy_savings": 776.52,
+      "profit_generated": 12.73,
+      "profit_delta": 12.73,
+      "base_profit": 493.57,
+      "opt_profit": 506.3
+    },
+    {
+      "timestamp": "2026-05-01T15:17:41.710366",
+      "distillate_yield_improvement": 9.55,
+      "energy_savings": 0.0,
+      "profit_generated": 1.53,
+      "profit_delta": 1.53,
+      "base_profit": 487.72,
+      "opt_profit": 489.25
+    },
+    {
+      "timestamp": "2026-05-01T15:18:41.651532",
+      "distillate_yield_improvement": 3.46,
+      "energy_savings": 119.41,
+      "profit_generated": 6.2,
+      "profit_delta": 6.2,
+      "base_profit": 523.49,
+      "opt_profit": 529.69
+    }
+  ],
+  "summary": {
+    "total_runs": 63,
+    "positive_profit_runs": 63,
+    "avg_distillate_yield_improvement": 8.9,
+    "cumulative_energy_savings": 18680.4,
+    "cumulative_profit": 672.22
+  }
+}

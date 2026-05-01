@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Activity, Zap, ArrowRight, Brain } from "lucide-react";
+import { Activity, Zap, ArrowRight, Brain, Settings } from "lucide-react";
 import {
   BarChart,
   Bar,
@@ -35,6 +35,8 @@ export default function OptimizePage() {
   const [scenario, setScenario] = useState("default");
   const [checkpoints, setCheckpoints] = useState([]);
   const [selectedAgent, setSelectedAgent] = useState("");
+  const [showSettings, setShowSettings] = useState(false);
+  const [numRuns, setNumRuns] = useState(50);
 
   useEffect(() => {
     listCheckpoints()
@@ -53,9 +55,9 @@ export default function OptimizePage() {
       if (selectedAgent) {
         await loadCheckpoint(selectedAgent);
       }
-      const r = await optimize({ scenario_name: scenario });
+      const r = await optimize({ scenario_name: scenario, num_runs: numRuns });
       setResult(r.data);
-      toast.success("Optimization complete");
+      toast.success(numRuns > 1 ? `Completed ${numRuns} optimization runs` : "Optimization complete");
     } catch (err) {
       toast.error(err.response?.data?.detail || "No trained model available");
     } finally {
@@ -79,15 +81,61 @@ export default function OptimizePage() {
             Run the trained RL agent to recommend optimal ADU + NSU + VDU column settings
           </p>
         </div>
-        <button
-          onClick={handleOptimize}
-          disabled={loading}
-          className="flex items-center gap-2 px-5 py-2.5 rounded-lg bg-green-600 hover:bg-green-700 text-white font-medium transition disabled:opacity-50"
-        >
-          <Zap size={16} />
-          {loading ? "Optimizing…" : "Run Agent"}
-        </button>
+        <div className="flex items-center gap-3">
+          <button
+            onClick={() => setShowSettings(!showSettings)}
+            className="p-2 rounded-lg bg-gray-800 hover:bg-gray-700 text-gray-400 hover:text-white transition"
+            title="Run settings"
+          >
+            <Settings size={18} />
+          </button>
+          <button
+            onClick={handleOptimize}
+            disabled={loading}
+            className="flex items-center gap-2 px-5 py-2.5 rounded-lg bg-green-600 hover:bg-green-700 text-white font-medium transition disabled:opacity-50"
+          >
+            <Zap size={16} />
+            {loading ? "Optimizing…" : "Run Agent"}
+          </button>
+        </div>
       </div>
+
+      {/* Settings panel */}
+      {showSettings && (
+        <div className="glass-card p-4 border border-blue-500/20 animate-fade-in">
+          <div className="flex items-center justify-between mb-3">
+            <h3 className="text-sm font-semibold text-white flex items-center gap-2">
+              <Settings size={16} className="text-blue-400" />
+              Run Configuration
+            </h3>
+            <button
+              onClick={() => setShowSettings(false)}
+              className="text-gray-500 hover:text-white"
+            >
+              ✕
+            </button>
+          </div>
+          <div className="space-y-3">
+            <div>
+              <label className="block text-xs text-gray-400 mb-2">
+                Number of Optimization Runs <span className="text-gray-500">(default: 50, stochastic results averaged)</span>
+              </label>
+              <input
+                type="number"
+                min={1}
+                max={200}
+                step={1}
+                value={numRuns}
+                onChange={(e) => setNumRuns(Math.max(1, Number(e.target.value)))}
+                className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-sm text-white font-mono outline-none focus:ring-2 focus:ring-blue-500"
+              />
+              <p className="text-[11px] text-gray-600 mt-1">
+                Results show average profit with ±std dev. Recommended settings from highest profit run.
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Agent selector */}
       <div className="glass-card p-4 space-y-3">
@@ -129,30 +177,46 @@ export default function OptimizePage() {
         <div className="space-y-6 animate-fade-in">
           {/* Profit header */}
           <div className="glass-card p-6 ring-1 ring-green-500/20 text-center">
-            <p className="text-sm text-gray-400">Estimated Hourly Profit</p>
-            <p className="text-4xl font-bold text-green-400 mt-1">
-              ${result.estimated_profit?.toFixed(2)}
-              <span className="text-lg text-gray-500">/hr</span>
+            <p className="text-sm text-gray-400">
+              {result.num_runs && result.num_runs > 1 
+                ? `Average Hourly Profit (from ${result.num_runs} runs)` 
+                : "Estimated Hourly Profit"}
             </p>
+            <div className="mt-2">
+              <p className="text-4xl font-bold text-green-400">
+                ${result.avg_profit?.toFixed(2)}
+                <span className="text-lg text-gray-500">/hr</span>
+              </p>
+              {result.std_profit !== undefined && result.std_profit > 0 && (
+                <p className="text-sm text-gray-400 mt-1">
+                  ±{result.std_profit?.toFixed(2)} std dev
+                </p>
+              )}
+            </div>
             <div className="flex items-center justify-center gap-6 mt-3 text-xs text-gray-500">
-              {result.total_revenue > 0 && (
+              {result.avg_revenue > 0 && (
                 <span>
-                  Revenue: <b className="text-green-300">${result.total_revenue?.toFixed(2)}/hr</b>
+                  Revenue: <b className="text-green-300">${result.avg_revenue?.toFixed(2)}/hr</b>
                 </span>
               )}
-              {result.feed_cost > 0 && (
+              {result.avg_feed_cost > 0 && (
                 <span>
-                  Feed cost: <b className="text-red-300">${result.feed_cost?.toFixed(2)}/hr</b>
+                  Feed cost: <b className="text-red-300">${result.avg_feed_cost?.toFixed(2)}/hr</b>
                 </span>
               )}
             </div>
           </div>
 
-          {/* Recommended actions */}
+          {/* Recommended actions (from best run) */}
           <div className="glass-card p-6">
             <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
               <Activity size={18} className="text-blue-400" />
               Recommended Column Settings
+              {result.num_runs && result.num_runs > 1 && (
+                <span className="text-sm text-gray-400 font-normal ml-auto">
+                  (from best run: ${result.best_profit?.toFixed(2)}/hr)
+                </span>
+              )}
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {Object.entries(result.recommended_action || {}).map(
@@ -183,7 +247,7 @@ export default function OptimizePage() {
           {revenueData.length > 0 && (
             <div className="glass-card p-6">
               <h3 className="text-lg font-semibold text-white mb-4">
-                Product Revenue Breakdown
+                Ave Product Revenue Breakdown
               </h3>
               <ResponsiveContainer width="100%" height={280}>
                 <BarChart data={revenueData}>

@@ -1,35 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
 @import "tailwindcss";
 
 /* ── Custom theme tokens ───────────────────────────────────────── */
 :root {
-  --color-brand: #3b82f6;
-  --color-brand-dark: #2563eb;
-  --color-success: #22c55e;
-  --color-warning: #f59e0b;
-  --color-danger: #ef4444;
-  --color-surface: #111827;
-  --color-surface-2: #1f2937;
-  --color-surface-3: #374151;
+  --bg-0: #0b1220;
+  --bg-1: #11192b;
+  --bg-2: #172437;
+  --ink-0: #e5f3ff;
+  --ink-1: #9ab0c8;
+  --ink-2: #6f8399;
+  --accent: #16f2c2;
+  --accent-soft: rgba(22, 242, 194, 0.14);
+  --panel: rgba(18, 26, 40, 0.72);
+  --panel-border: rgba(103, 129, 158, 0.24);
+  --panel-highlight: rgba(174, 232, 255, 0.08);
+  --shadow-neon: 0 10px 28px rgba(4, 8, 18, 0.5), 0 0 0 1px rgba(22, 242, 194, 0.08);
 }
 
 /* ── Base ───────────────────────────────────────────────────────── */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
 body {
-  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  margin: 0;
+  color: var(--ink-0);
+  font-family: "Manrope", "Segoe UI", sans-serif;
   -webkit-font-smoothing: antialiased;
+  background:
+    radial-gradient(1200px 600px at 78% 16%, rgba(47, 120, 160, 0.28), transparent 62%),
+    radial-gradient(1000px 480px at 20% 88%, rgba(29, 108, 140, 0.2), transparent 60%),
+    linear-gradient(150deg, #243247 0%, #1a2a3e 35%, #0b1220 100%);
+  background-attachment: fixed;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at center, rgba(178, 233, 255, 0.09), transparent 56%);
+  mix-blend-mode: screen;
 }
 
 /* ── Scrollbar ──────────────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: #6b7280; }
+::-webkit-scrollbar-thumb { background: rgba(112, 143, 172, 0.48); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(160, 192, 220, 0.7); }
 
 /* ── Card glass effect ──────────────────────────────────────────── */
 .glass-card {
-  background: rgba(17, 24, 39, 0.7);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(75, 85, 99, 0.3);
-  border-radius: 12px;
+  position: relative;
+  background: linear-gradient(160deg, rgba(30, 42, 58, 0.74), rgba(17, 24, 38, 0.78));
+  backdrop-filter: blur(18px) saturate(130%);
+  /*border: 1px solid var(--panel-border);*/
+  border-radius: 20px;
+  box-shadow: var(--shadow-neon);
+}
+
+.glass-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border-top: 1px solid var(--panel-highlight);
+  pointer-events: none;
+}
+
+.app-shell {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-sidebar {
+  background: linear-gradient(170deg, rgba(15, 22, 35, 0.92), rgba(13, 19, 30, 0.9));
+  border-right: 1px solid rgba(94, 118, 145, 0.22);
+  backdrop-filter: blur(14px);
+}
+
+.app-brand {
+  color: #b8eeff;
+  letter-spacing: 0.02em;
+  text-shadow: 0 0 16px rgba(95, 227, 255, 0.28);
+}
+
+.app-subtitle {
+  color: var(--ink-2);
+}
+
+.nav-link {
+  color: #8fa5bb;
+  background: transparent;
+  border: 1px solid transparent;
+}
+
+.nav-link:hover {
+  color: #d8f3ff;
+  background: rgba(50, 69, 90, 0.36);
+  border-color: rgba(97, 120, 147, 0.28);
+}
+
+.nav-link-active {
+  color: #cdfef0;
+  background: linear-gradient(140deg, rgba(24, 54, 62, 0.9), rgba(18, 35, 49, 0.92));
+  border-color: rgba(22, 242, 194, 0.32);
+  box-shadow: 0 8px 20px rgba(2, 12, 19, 0.38), 0 0 18px rgba(22, 242, 194, 0.12);
+}
+
+.app-main {
+  background:
+    radial-gradient(920px 480px at 8% 10%, rgba(56, 152, 196, 0.28), transparent 62%),
+    radial-gradient(760px 380px at 74% 84%, rgba(36, 118, 168, 0.18), transparent 64%),
+    linear-gradient(160deg, rgba(9, 14, 25, 0.95), rgba(10, 16, 28, 0.9));
+  background-size: 136% 136%, 126% 126%, 100% 100%;
+  background-position: 8% 8%, 92% 92%, 50% 50%;
+  animation: app-main-drift 28s ease-in-out infinite;
+  will-change: background-position, background-size;
+}
+
+.app-main h2,
+.app-main h3 {
+  color: var(--ink-0);
+}
+
+.app-main p,
+.app-main span,
+.app-main label,
+.app-main th,
+.app-main td {
+  color: inherit;
+}
+
+.app-main .text-gray-500,
+.app-main .text-gray-600 {
+  color: var(--ink-2) !important;
+}
+
+.app-main .text-gray-400 {
+  color: var(--ink-1) !important;
+}
+
+.app-main .bg-gray-800,
+.app-main .bg-gray-800\/50,
+.app-main .bg-gray-800\/60,
+.app-main .bg-gray-800\/40,
+.app-main .bg-gray-900 {
+  background: rgba(26, 38, 54, 0.75) !important;
+}
+
+.app-main .bg-gray-700,
+.app-main .bg-gray-700\/50 {
+  background: rgba(45, 60, 82, 0.7) !important;
+}
+
+.app-main .border-gray-700,
+.app-main .border-gray-700\/50,
+.app-main .border-gray-800,
+.app-main .border-gray-800\/50 {
+  border-color: rgba(98, 124, 150, 0.28) !important;
+}
+
+.app-main input,
+.app-main select,
+.app-main textarea {
+  background: rgba(22, 34, 49, 0.76) !important;
+  border: 1px solid rgba(99, 125, 151, 0.3) !important;
+  color: #d9e9f7 !important;
+  box-shadow: inset 0 1px 0 rgba(197, 228, 255, 0.04);
+}
+
+.app-main input::placeholder,
+.app-main textarea::placeholder {
+  color: rgba(153, 176, 199, 0.72) !important;
+}
+
+.app-main input:focus,
+.app-main select:focus,
+.app-main textarea:focus {
+  outline: none;
+  border-color: rgba(22, 242, 194, 0.58) !important;
+  box-shadow: 0 0 0 3px rgba(22, 242, 194, 0.16), inset 0 1px 0 rgba(197, 228, 255, 0.07);
+}
+
+.app-main button {
+  border: 1px solid rgba(88, 112, 136, 0.3);
+  box-shadow: 0 6px 14px rgba(3, 10, 19, 0.26);
+}
+
+.app-main .bg-blue-600,
+.app-main .bg-purple-600,
+.app-main .bg-green-600,
+.app-main .bg-amber-600 {
+  background: linear-gradient(145deg, rgba(19, 66, 79, 0.9), rgba(13, 44, 57, 0.95)) !important;
+  border-color: rgba(22, 242, 194, 0.34) !important;
+  color: #d7fff4 !important;
+}
+
+.app-main .hover\:bg-blue-700:hover,
+.app-main .hover\:bg-purple-700:hover,
+.app-main .hover\:bg-green-700:hover,
+.app-main .hover\:bg-amber-700:hover {
+  background: linear-gradient(145deg, rgba(24, 87, 101, 0.9), rgba(18, 57, 69, 0.95)) !important;
+}
+
+.app-main table thead tr {
+  background: rgba(19, 30, 44, 0.64);
+}
+
+.app-main table tbody tr:hover {
+  background: rgba(29, 45, 64, 0.4);
 }
 
 /* ── Animations ─────────────────────────────────────────────────── */
@@ -40,10 +228,28 @@ body {
 .animate-fade-in { animation: fade-in 0.3s ease-out; }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 8px rgba(59,130,246,0.3); }
-  50%      { box-shadow: 0 0 20px rgba(59,130,246,0.6); }
+  0%, 100% { box-shadow: 0 0 8px rgba(22, 242, 194, 0.28); }
+  50%      { box-shadow: 0 0 22px rgba(22, 242, 194, 0.54); }
 }
 .pulse-glow { animation: pulse-glow 2s infinite; }
+
+@keyframes app-main-drift {
+  0%,
+  100% {
+    background-position: 8% 8%, 92% 92%, 50% 50%;
+    background-size: 136% 136%, 126% 126%, 100% 100%;
+  }
+  50% {
+    background-position: 50% 82%, 82% 74%, 50% 50%;
+    background-size: 150% 150%, 134% 134%, 100% 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-main {
+    animation: none;
+  }
+}
 
 /* ── Gauge animation ────────────────────────────────────────────── */
 @keyframes gauge-fill {

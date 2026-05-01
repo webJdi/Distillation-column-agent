@@ -11,9 +11,32 @@ from fastapi.staticfiles import StaticFiles
 from contextlib import asynccontextmanager
 from loguru import logger
 import os
+import asyncio
+import queue
 
 from backend.config import settings
 from backend.api import prices, simulation, training, disturbance, ai_agent
+
+
+async def _broadcast_queue_processor():
+    """
+    Background task that monitors the broadcast queue and sends messages
+    to all connected WebSocket clients. Runs continuously during app lifetime.
+    """
+    from backend.api.training import _broadcast_queue, _broadcast_to_ws
+    
+    while True:
+        try:
+            # Non-blocking check for messages
+            try:
+                data = _broadcast_queue.get_nowait()
+                await _broadcast_to_ws(data)
+            except queue.Empty:
+                # No message, wait a bit and check again
+                await asyncio.sleep(0.05)
+        except Exception as exc:
+            logger.warning(f"Broadcast queue processor error: {exc}")
+            await asyncio.sleep(0.1)
 
 
 # Lifespan
@@ -29,9 +52,30 @@ async def lifespan(app: FastAPI):
     os.makedirs(settings.RL_CHECKPOINT_DIR, exist_ok=True)
     os.makedirs("data", exist_ok=True)
 
+    # Auto-load the most recent notebook SAC checkpoint as the default inference model
+    import glob
+    nb_dir = os.path.join(settings.RL_CHECKPOINT_DIR, "notebook")
+    sac_checkpoints = sorted(
+        glob.glob(os.path.join(nb_dir, "notebook_SAC_*.zip")), reverse=True
+    )
+    if sac_checkpoints:
+        from backend.api.training import agent_manager
+        try:
+            agent_manager.load_checkpoint(sac_checkpoints[0])
+            logger.info(f"✅  Auto-loaded SAC checkpoint: {sac_checkpoints[0]}")
+        except Exception as exc:
+            logger.warning(f"⚠️  Could not auto-load checkpoint: {exc}")
+    else:
+        logger.info("ℹ️  No notebook SAC checkpoint found — inference unavailable until trained")
+
+    # Start background broadcast processor
+    processor_task = asyncio.create_task(_broadcast_queue_processor())
+    logger.info("✅  Broadcast queue processor started")
+
     yield
 
     # Cleanup
+    processor_task.cancel()
     logger.info("Shutting down …")
     try:
         from backend.api.simulation import _bridge

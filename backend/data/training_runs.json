@@ -55,5 +55,24 @@
       "use_curriculum": true
     },
     "created_at": "2026-03-09T04:55:25.814689"
+  },
+  "cdu_SAC_20260501_150535": {
+    "run_id": "cdu_SAC_20260501_150535",
+    "algorithm": "SAC",
+    "total_timesteps": 1000,
+    "best_reward": -3598.03125,
+    "avg_reward": -3603.63720703125,
+    "episodes": 5,
+    "training_time_seconds": 2.11,
+    "config": {
+      "algorithm": "SAC",
+      "total_timesteps": 1000,
+      "learning_rate": 0.0003,
+      "batch_size": 256,
+      "gamma": 0.99,
+      "scenario_name": "default",
+      "use_curriculum": true
+    },
+    "created_at": "2026-05-01T09:35:35.411454"
   }
 }

@@ -54,7 +54,12 @@ export default function PricesPage() {
     try {
       const r = await getPrices(name);
       if (r.data?.prices) {
-        setPrices(r.data.prices);
+        // Merge loaded prices with defaults, using defaults for any 0 values or missing keys
+        const merged = { ...DEFAULT_PRICES };
+        for (const [key, value] of Object.entries(r.data.prices)) {
+          merged[key] = (value && value > 0) ? value : DEFAULT_PRICES[key];
+        }
+        setPrices(merged);
         setScenarioName(name);
       }
     } catch {
@@ -161,7 +166,7 @@ export default function PricesPage() {
                 type="number"
                 min={0}
                 step={0.01}
-                value={prices[key] || 0}
+                value={prices[key] || DEFAULT_PRICES[key] || 0}
                 onChange={(e) =>
                   setPrices((p) => ({ ...p, [key]: Number(e.target.value) }))
                 }

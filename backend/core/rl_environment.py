@@ -249,7 +249,8 @@ class CDUEnvironment(gym.Env):
 
     def reset(self, seed=None, options=None):
         super().reset(seed=seed)
-        CDUEnvironment._episode_number += 1
+        if not self.use_mock:
+            CDUEnvironment._episode_number += 1
         ep = CDUEnvironment._episode_number
         self.current_step = 0
         self._episode_reward = 0.0

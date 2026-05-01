@@ -145,12 +145,13 @@ class TrainingStatus(str, Enum):
 class TrainingConfig(BaseModel):
     """Configuration for RL training run."""
     algorithm: str = Field(default="SAC", description="RL algorithm (SAC, PPO, TD3)")
-    total_timesteps: int = Field(default=50_000, ge=1000, le=1_000_000)
+    total_timesteps: int = Field(default=500, ge=100, le=1_000_000)
     learning_rate: float = Field(default=3e-4, ge=1e-6, le=1e-1)
-    batch_size: int = Field(default=256, ge=32, le=2048)
+    batch_size: int = Field(default=64, ge=32, le=2048)
     gamma: float = Field(default=0.99, ge=0.9, le=0.999)
+    max_episode_steps: int = Field(default=50, ge=10, le=500)
     scenario_name: Optional[str] = "default"
-    use_curriculum: bool = Field(default=True, description="Use curriculum learning")
+    use_curriculum: bool = Field(default=False, description="Use curriculum learning")
 
 
 class TrainingProgress(BaseModel):
@@ -216,6 +217,7 @@ class OptimizationRequest(BaseModel):
     scenario_name: Optional[str] = "default"
     disturbance: Optional[FeedDisturbance] = None
     prices: Optional[ProductPrices] = None
+    num_runs: Optional[int] = 1  # Number of stochastic runs (default 1)
 
 
 class OptimizationResult(BaseModel):
