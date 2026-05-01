@@ -719,13 +719,139 @@
       "profit_delta": 9.67,
       "base_profit": 530.14,
       "opt_profit": 539.81
+    },
+    {
+      "timestamp": "2026-05-01T15:31:22.224384",
+      "distillate_yield_improvement": 9.7,
+      "energy_savings": 21.62,
+      "profit_generated": 18.93,
+      "profit_delta": 18.93,
+      "base_profit": 505.3,
+      "opt_profit": 524.23
+    },
+    {
+      "timestamp": "2026-05-01T15:31:32.842134",
+      "distillate_yield_improvement": 21.14,
+      "energy_savings": 0.0,
+      "profit_generated": 11.4,
+      "profit_delta": 11.4,
+      "base_profit": 493.73,
+      "opt_profit": 505.13
+    },
+    {
+      "timestamp": "2026-05-01T15:31:42.823316",
+      "distillate_yield_improvement": 4.83,
+      "energy_savings": 1468.39,
+      "profit_generated": 1.17,
+      "profit_delta": 1.17,
+      "base_profit": 508.9,
+      "opt_profit": 510.07
+    },
+    {
+      "timestamp": "2026-05-01T15:31:47.641623",
+      "distillate_yield_improvement": 16.43,
+      "energy_savings": 798.29,
+      "profit_generated": 13.8,
+      "profit_delta": 13.8,
+      "base_profit": 523.86,
+      "opt_profit": 537.66
+    },
+    {
+      "timestamp": "2026-05-01T15:31:52.802530",
+      "distillate_yield_improvement": 10.2,
+      "energy_savings": 189.69,
+      "profit_generated": 5.67,
+      "profit_delta": 5.67,
+      "base_profit": 519.11,
+      "opt_profit": 524.78
+    },
+    {
+      "timestamp": "2026-05-01T15:31:57.717742",
+      "distillate_yield_improvement": 1.7,
+      "energy_savings": 112.42,
+      "profit_generated": 7.3,
+      "profit_delta": 7.3,
+      "base_profit": 490.19,
+      "opt_profit": 497.49
+    },
+    {
+      "timestamp": "2026-05-01T15:32:02.671441",
+      "distillate_yield_improvement": 20.31,
+      "energy_savings": 220.02,
+      "profit_generated": 17.11,
+      "profit_delta": 17.11,
+      "base_profit": 534.58,
+      "opt_profit": 551.69
+    },
+    {
+      "timestamp": "2026-05-01T15:32:12.804128",
+      "distillate_yield_improvement": 8.23,
+      "energy_savings": 119.8,
+      "profit_generated": 7.21,
+      "profit_delta": 7.21,
+      "base_profit": 519.75,
+      "opt_profit": 526.96
+    },
+    {
+      "timestamp": "2026-05-01T15:32:22.814276",
+      "distillate_yield_improvement": 18.04,
+      "energy_savings": 887.07,
+      "profit_generated": 9.74,
+      "profit_delta": 9.74,
+      "base_profit": 521.49,
+      "opt_profit": 531.23
+    },
+    {
+      "timestamp": "2026-05-01T15:32:27.631153",
+      "distillate_yield_improvement": 26.51,
+      "energy_savings": 468.4,
+      "profit_generated": 13.77,
+      "profit_delta": 13.77,
+      "base_profit": 501.83,
+      "opt_profit": 515.6
+    },
+    {
+      "timestamp": "2026-05-01T15:32:32.826942",
+      "distillate_yield_improvement": 11.93,
+      "energy_savings": 0.0,
+      "profit_generated": 23.37,
+      "profit_delta": 23.37,
+      "base_profit": 483.18,
+      "opt_profit": 506.55
+    },
+    {
+      "timestamp": "2026-05-01T15:32:37.751213",
+      "distillate_yield_improvement": 2.66,
+      "energy_savings": 0.0,
+      "profit_generated": 7.63,
+      "profit_delta": 7.63,
+      "base_profit": 531.13,
+      "opt_profit": 538.76
+    },
+    {
+      "timestamp": "2026-05-01T15:32:42.656511",
+      "distillate_yield_improvement": 8.06,
+      "energy_savings": 0.0,
+      "profit_generated": 17.87,
+      "profit_delta": 17.87,
+      "base_profit": 492.25,
+      "opt_profit": 510.12
+    },
+    {
+      "timestamp": "2026-05-01T15:32:47.716218",
+      "distillate_yield_improvement": 13.77,
+      "energy_savings": 0.0,
+      "profit_generated": 17.34,
+      "profit_delta": 17.34,
+      "base_profit": 488.54,
+      "opt_profit": 505.88
     }
   ],
   "summary": {
-    "total_runs": 80,
-    "positive_profit_runs": 80,
-    "avg_distillate_yield_improvement": 8.64,
-    "cumulative_energy_savings": 27975.85,
-    "cumulative_profit": 822.25
+    "total_runs": 94,
+    "positive_profit_runs": 94,
+    "avg_distillate_yield_improvement": 9.2,
+    "cumulative_energy_savings": 32261.55,
+    "cumulative_profit": 994.56
   }
 }

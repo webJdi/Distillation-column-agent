@@ -1,4 +1,4 @@
-# CDU Optimizer — RL-Powered Crude Distillation Unit
+# CDU Optimizer — RL-Powered Crude Distillation Unit RTO
 
 A Deep Reinforcement Learning system that optimizes a Crude Distillation Unit (CDU)
 simulated in DWSIM to maximize profitability across product streams.
